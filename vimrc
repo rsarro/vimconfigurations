@@ -28,9 +28,9 @@ execute pathogen#helptags()
 filetype plugin indent on
 
 " XML syntax
-let g:xml_syntax_folding=1
-set foldmethod=syntax
-au Filetype html,xml,xsl source $HOME/.vim/scripts/closetag.vim
+"let g:xml_syntax_folding=1
+"set foldmethod=syntax
+"au Filetype html,xml,xsl source $HOME/.vim/scripts/closetag.vim
 
 if has("gui_running")
   set guifont=Anonymous\ Pro\ 12
