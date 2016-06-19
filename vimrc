@@ -12,11 +12,13 @@ Plugin 'VundleVim/Vundle.vim'
 " My plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'tomasr/molokai'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'jnwhiteh/vim-golang'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -32,9 +34,13 @@ set ts=2
 set sw=2
 set et
 
+" for vim-airline to always appear
+set laststatus=2
+
 if has("gui_running")
   colorscheme molokai
   set guifont=Anonymous\ Pro\ 12
 else
   colorscheme koehler
 endif
+
