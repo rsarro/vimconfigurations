@@ -33,5 +33,8 @@ set sw=2
 set et
 
 if has("gui_running")
+  colorscheme molokai
   set guifont=Anonymous\ Pro\ 12
+else
+  colorscheme koehler
 endif
