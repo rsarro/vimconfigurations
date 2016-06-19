@@ -5,3 +5,4 @@ bundle/vim-colors-solarized/
 bundle/vim-fugitive/
 bundle/vim-golang/
 bundle/vim-scala/
+.netrwhist
