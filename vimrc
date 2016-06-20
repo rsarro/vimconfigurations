@@ -44,3 +44,5 @@ else
   colorscheme koehler
 endif
 
+let mapleader="\\"
+let g:ctrlp_map = "<Leader>p"
