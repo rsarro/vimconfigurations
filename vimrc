@@ -23,6 +23,7 @@ Plugin 'tomasr/molokai'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'jnwhiteh/vim-golang'
 Plugin 'kien/ctrlp.vim'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 filetype plugin indent on
@@ -48,5 +49,7 @@ else
   colorscheme koehler
 endif
 
+" vim-javascript
+let g:javascript_enable_domhtmlcss = 1
 let mapleader="\\"
 let g:ctrlp_map = "<Leader>p"
