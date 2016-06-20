@@ -38,6 +38,7 @@ set relativenumber
 set ts=2
 set sw=2
 set et
+syntax on
 
 " for vim-airline to always appear
 set laststatus=2
