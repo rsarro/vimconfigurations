@@ -52,5 +52,8 @@ endif
 
 " vim-javascript
 let g:javascript_enable_domhtmlcss = 1
+
+" Keymaps
 let mapleader="\\"
 let g:ctrlp_map = "<Leader>p"
+map <Leader>n :NERDTreeToggle<CR>
