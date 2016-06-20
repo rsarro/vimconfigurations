@@ -4,7 +4,11 @@ set nocompatible
 filetype off
 
 " set the runtime path to include Vundel and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+if has('win32')
+	set rtp+=~/vimfiles/bundle/Vundle.vim
+else
+	set rtp+=~/.vim/bundle/Vundle.vim
+endif
 call vundle#begin()
 
 " lev Vundle manage itself
