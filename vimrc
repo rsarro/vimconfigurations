@@ -16,6 +16,7 @@ Plugin 'VundleVim/Vundle.vim'
 " My plugins
 Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-sensible'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
@@ -40,12 +41,16 @@ set sw=2
 set et
 syntax on
 
+" Folding behaviour
+ set foldmethod=indent
+ set foldenable
+
 " for vim-airline to always appear
 set laststatus=2
 
 if has("gui_running")
   colorscheme molokai
-  set guifont=Anonymous\ Pro\ 12
+  set guifont=Anonymous_Pro:h10:cANSI
 else
   colorscheme koehler
 endif
