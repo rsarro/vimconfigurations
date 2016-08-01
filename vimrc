@@ -62,3 +62,4 @@ let g:javascript_enable_domhtmlcss = 1
 let mapleader="\\"
 let g:ctrlp_map = "<Leader>p"
 map <Leader>n :NERDTreeToggle<CR>
+" vim:ff=unix
