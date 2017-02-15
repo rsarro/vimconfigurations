@@ -43,7 +43,7 @@ syntax on
 
 " Folding behaviour
  set foldmethod=indent
- set foldenable
+ set nofoldenable
 
 " for vim-airline to always appear
 set laststatus=2
