@@ -49,10 +49,10 @@ syntax on
 set laststatus=2
 
 if has("gui_running")
-  colorscheme molokai
+  colorscheme solarized
   set guifont=Anonymous_Pro:h10:cANSI
 else
-  colorscheme koehler
+  colorscheme molokai
 endif
 
 " vim-javascript
@@ -72,4 +72,7 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+" Airline theme
+let g:airline_theme='base16_solarized'
 
