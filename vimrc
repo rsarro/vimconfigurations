@@ -25,6 +25,7 @@ Plugin 'derekwyatt/vim-scala'
 Plugin 'jnwhiteh/vim-golang'
 Plugin 'kien/ctrlp.vim'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mustache/vim-mustache-handlebars'
 
 call vundle#end()
 filetype plugin indent on
@@ -50,7 +51,7 @@ set laststatus=2
 
 if has("gui_running")
   colorscheme solarized
-  set guifont=Anonymous_Pro:h10:cANSI
+  set guifont=Anonymous_Pro:h11:cANSI
 else
   colorscheme molokai
 endif
