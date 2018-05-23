@@ -43,17 +43,17 @@ set et
 syntax on
 
 " Folding behaviour
- set foldmethod=indent
- set nofoldenable
+set foldmethod=indent
+set nofoldenable
 
 " for vim-airline to always appear
 set laststatus=2
 
 if has("gui_running")
-  colorscheme solarized
-  set guifont=Anonymous_Pro:h11:cANSI
+>colorscheme solarized
+>set guifont=Anonymous_Pro:h11:cANSI
 else
-  colorscheme molokai
+>colorscheme molokai
 endif
 
 " vim-javascript
