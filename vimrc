@@ -76,4 +76,5 @@ set splitright
 
 " Airline theme
 let g:airline_theme='base16_solarized'
-
+" Airline settings
+let g:airline#extensions#tabline#enabled = 1
