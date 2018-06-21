@@ -50,10 +50,10 @@ set nofoldenable
 set laststatus=2
 
 if has("gui_running")
->colorscheme solarized
->set guifont=Anonymous_Pro:h11:cANSI
+  colorscheme solarized
+  set guifont=Anonymous_Pro:h11:cANSI
 else
->colorscheme molokai
+  colorscheme molokai
 endif
 
 " vim-javascript
